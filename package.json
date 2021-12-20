@@ -1,0 +1,19 @@
+{
+  "name": "js-ast-example",
+  "version": "1.0.0",
+  "description": "example of how to manipulate the ast to dynamically create JS scripts with parameters.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'no tests'"
+  },
+  "author": "aks-c",
+  "license": "ISC",
+  "dependencies": {
+    "@types/escodegen": "0.0.7",
+    "escodegen": "2.0.0",
+    "espree": "9.2.0",
+    "lodash-es": "4.17.21"
+  }
+}
